@@ -1,0 +1,43 @@
+.subHeader {
+	height: 40px;
+	display: flex;
+	align-items: center;
+	background-color: #232e3b;
+	z-index: 100;
+	color: white;
+}
+
+.subHeader__optionLocation {
+	display: flex;
+	margin: 0 18px;
+	min-width: 200px;
+}
+
+.subHeader__optionDetails {
+	display: flex;
+	flex-direction: column;
+}
+
+.subHeader__menu {
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
+	min-width: 300px;
+	flex-flow: row wrap-reverse;
+	list-style: none;
+	height: 100%;
+}
+
+.SubHeader__menuItem {
+	font-weight: 800;
+	font-size: 0.9rem;
+	text-decoration: none;
+	color: white;
+	padding: 12px 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.subHeader__promotion {
+		display: none;
+	}
+}
