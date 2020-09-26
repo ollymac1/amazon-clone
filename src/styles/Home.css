@@ -13,8 +13,9 @@
 
 .home__image {
 	width: 100%;
-	vertical-align: top;
 	z-index: -1;
-	margin-bottom: -8rem;
+	margin-bottom: -18rem;
 	mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0, 66, 247));
+	min-height: 450px;
+	object-fit: cover;
 }

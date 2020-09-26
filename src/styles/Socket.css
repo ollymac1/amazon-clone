@@ -1,0 +1,22 @@
+.socket {
+	display: flex;
+	background-color: #131a22;
+	color: white;
+	font-size: 0.6rem;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.socket > div {
+	padding: 10px 10px;
+}
+
+.socket__copyright {
+	color: grey;
+}
+
+.socket__link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}

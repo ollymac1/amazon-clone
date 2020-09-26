@@ -5,11 +5,14 @@ import Home from './Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Checkout from './Checkout';
 import SubHeader from '../components/SubHeader';
+import BackToTop from '../components/BackToTop';
+import Footer from '../components/Footer';
+import Socket from '../components/Socket';
 
 function App() {
 	return (
 		<Router>
-			<div className='App'>
+			<div className='App' id='top'>
 				<Header />
 				<SubHeader />
 				<Switch>
@@ -21,6 +24,9 @@ function App() {
 						<Home />
 					</Route>
 				</Switch>
+				<BackToTop />
+				<Footer />
+				<Socket />
 			</div>
 		</Router>
 	);
