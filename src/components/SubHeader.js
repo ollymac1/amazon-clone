@@ -6,7 +6,7 @@ import { Fade } from 'react-awesome-reveal';
 
 function SubHeader() {
 	return (
-		<Fade direction='down'>
+		<Fade direction='down' duration='600' fraction='1' delay='5'>
 			<div className='subHeader'>
 				<div className='subHeader__optionLocation'>
 					<LocationOnIcon />

@@ -23,6 +23,7 @@ function Subtotal() {
 				thousandSeperator={true}
 				prefix={'AED'}
 			/>
+			<button>Proceed to Checkout</button>
 		</div>
 	);
 }
