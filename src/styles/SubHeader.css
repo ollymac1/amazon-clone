@@ -18,6 +18,15 @@
 	flex-direction: column;
 }
 
+.subHeader__optionLocation {
+	transition: all 0.2s ease;
+}
+
+.subHeader__optionLocation:hover {
+	color: #febd68;
+	cursor: pointer;
+}
+
 .subHeader__menu {
 	display: flex;
 	align-items: flex-end;
@@ -33,7 +42,9 @@
 	font-size: 0.9rem;
 	text-decoration: none;
 	color: white;
-	padding: 12px 10px;
+	padding: 6px 10px;
+	border: 1px solid transparent;
+	margin: 5px auto;
 }
 
 @media only screen and (max-width: 1200px) {

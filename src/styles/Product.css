@@ -4,7 +4,7 @@
 	background-color: white;
 	z-index: 1;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: space-between;
 	margin: 10px;
 	padding: 20px;
 	width: 100%;
@@ -15,6 +15,7 @@
 .product__info {
 	height: 100px;
 	margin-bottom: 15px;
+	font-size: 1rem;
 }
 
 .product__price {
